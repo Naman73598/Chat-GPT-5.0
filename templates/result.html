@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>Generated Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        #chart-container {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+        }
+    </style>
+    <style>
+        body {
+			background-color: #f2f2f2;
+			font-family: Arial, sans-serif;
+			font-size: 16px;
+		}
+		h1 {
+			color: #333333;
+			text-align: center;
+			margin-top: 50px;
+		}
+		.jumbotron {
+			color: #FF6347;
+			margin: 20px auto;
+			padding-top : 10px;
+			padding-left: 5%;
+			padding-right: 5%;
+			width: 60%;
+			background-color: #c0deed;
+			box-shadow: 3px 3px 3px gray;
+		}
+	
+		.bg-primary {
+			background: #1dcaff
+		}
+	
+		.bubble {
+			position: relative;
+			width: 35em;
+			height: 13em;
+			padding: 8px;
+			background: #FFFFFF;
+			margin: auto;
+			-webkit-border-radius: 10px;
+			-moz-border-radius: 10px;
+			border-radius: 10px;
+			box-shadow: 3px 3px 3px gray;
+		}
+	
+		.bubble:after {
+			content: '';
+			position: absolute;
+			border-style: solid;
+			border-width: 15px 15px 15px 0;
+			border-color: transparent #FFFFFF;
+			display: block;
+			width: 0;
+			z-index: 1;
+			left: -15px;
+			top: 63px;
+		}
+	
+		.center {
+			margin-left: auto;
+			margin-right: auto;
+		}
+	
+		img.MyImage {
+			width: 14em;
+			height: 14em;
+			max-width: 100%;
+		}
+	
+		div {
+			color: black;
+			font-weight: bold;
+		}
+	
+	
+		@media only screen and (max-width: 768px) {
+			/* For mobile phones: */
+			[class*="col-"] {
+				width: 100%;
+			}
+		}
+	
+		footer {
+			margin: -30px;
+			text-align: center;
+			color: #999999;
+			font-size: 14px;
+		}
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="jumbotron">
+            <h1 font-family: "helvetica neue" class="text-center"><strong> Generated Answer</strong>
+            <p></h1>
+            <div class="container-responsive">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <a><img class="center-block img-responsive MyImage"
+                                src="http://pngimg.com/uploads/robot/robot_PNG94.png">
+                        </a><br>
+                    </div>
+                    <h3>Answer:</h3>
+                    <p>{{ answer }}</p>
+                </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+</html>
